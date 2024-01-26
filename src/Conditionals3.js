@@ -3,7 +3,6 @@ import React,{useState} from "react"
 //Create a component that login/logout a user at button click
 //// Logical AND (&&) OPERATOR
 
-
 function Conditionals3 () {
   const [isLoggedin, setIsLoggedIn] = useState(false);
 

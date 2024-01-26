@@ -5,8 +5,8 @@ import React,{useState} from "react"
 
 function Conditionals () {
   const [isLoggedin, setIsLoggedIn] = useState(false);
-
   let message;
+  
   if  (isLoggedin) {
     message = "Welcome Zino"
   } else {

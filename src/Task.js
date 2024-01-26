@@ -5,7 +5,7 @@ import "./Task.css"
 function Task ({name, isCompleted}) {
   if (isCompleted) {
     return (
-      <del>
+      <del className="complete">
         {""}
         <li>{name} ✓</li>
       </del>)
@@ -13,4 +13,5 @@ function Task ({name, isCompleted}) {
     return <li>{name} </li>
 }
 export default Task;
+
 

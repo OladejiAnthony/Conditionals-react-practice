@@ -9,11 +9,13 @@ import "./App.scss"
 function App(props) {
   return (
     <div className='App'>
-      {/* <Conditionals />
-      <Conditionals2 />
-      <Conditionals3 /> */}
+      <TaskList />
+     {/*  
+      <Conditionals />
+      <Conditionals2 /> 
+      <Conditionals3 />
       <AddCssClass />
-     {/* <TaskList /> */}
+      <TaskList /> */}
      
     </div>
   );
